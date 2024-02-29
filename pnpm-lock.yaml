@@ -7,6 +7,7 @@ specifiers:
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5
   '@testing-library/user-event': 12.6.2
+  babel: 6.23.0
   babel-plugin-styled-components: 1.13.2
   chalk: 4.1.0
   eslint-config-airbnb: 18.2.1
@@ -26,6 +27,7 @@ dependencies:
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
+  babel: 6.23.0
   chalk: 4.1.0
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
@@ -3587,6 +3589,12 @@ packages:
       babel-plugin-transform-react-remove-prop-types: 0.4.24
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /babel/6.23.0:
+    resolution: {integrity: sha512-ZDcCaI8Vlct8PJ3DvmyqUz+5X2Ylz3ZuuItBe/74yXosk2dwyVo/aN7MCJ8HJzhnnJ+6yP4o+lDgG9MBe91DLA==}
+    deprecated: In 6.x, the babel package has been deprecated in favor of babel-cli. Check https://opencollective.com/babel to support the Babel maintainers
+    hasBin: true
     dev: false
 
   /balanced-match/1.0.2:
